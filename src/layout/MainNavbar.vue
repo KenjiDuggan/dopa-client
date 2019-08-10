@@ -8,7 +8,7 @@
   >
     <template slot-scope="{ toggle, isToggled }">
       <router-link v-popover:popover1 class="navbar-brand" to="/">
-        Now Ui Kit
+        Z O A L A
       </router-link>
       <el-popover
         ref="popover1"
@@ -18,7 +18,7 @@
         trigger="hover"
       >
         <div class="popover-body">
-          Designed by Invision. Coded by Creative Tim
+          Designed by Kenji Duggan.
         </div>
       </el-popover>
     </template>

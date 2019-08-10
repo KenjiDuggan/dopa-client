@@ -3,9 +3,9 @@
     <b-form-select v-model="selected" :options="options"></b-form-select>
     <router-link
           to="/login"
-          class="btn btn-simple btn-round btn-lg whitetext"
+          class="btn btn-simple btn-round btn-lg whitetext h4"
         >
-          View Login Page
+          Go
         </router-link>
   </div>
 </template>

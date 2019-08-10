@@ -10,7 +10,7 @@
         <div class="content-center brand">
           <img class="n-logo sizeup" src="img/logo2.png" alt="" />
           <h1 class="h1 whitetext">Ready to finally commit?</h1>
-          <h3>I commit to </h3>
+          <h3 class="whitetext">I commit to </h3>
           <LandingPageSectionOne/> 
         </div>
         <!-- <h6 class="category category-absolute">
@@ -27,7 +27,7 @@
         </h6> -->
       </div>
     </div>
-    <div class="main whitetext">
+    <!-- <div class="main whitetext">
       <div class="section section-images">
         <div class="container">
           <div class="row">
@@ -45,7 +45,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
     <basic-elements></basic-elements>
     <navigation></navigation>
     <tabs-section></tabs-section>
