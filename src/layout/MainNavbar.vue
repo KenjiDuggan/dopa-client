@@ -29,54 +29,50 @@
           href="https://www.creative-tim.com/product/vue-now-ui-kit"
           target="_blank"
         >
-          <i class="now-ui-icons arrows-1_cloud-download-93"></i>
-          <p>Download</p>
+          <!-- <i class="fas fa-cogs"></i> -->
+          <p>How It Works</p>
         </a>
       </li>
-      <drop-down
-        tag="li"
-        title="Components"
-        icon="now-ui-icons design_app"
-        class="nav-item"
-      >
-        <nav-link to="/">
-          <i class="now-ui-icons business_chart-pie-36"></i> All components
-        </nav-link>
+      <li class="nav-item">
         <a
-          href="https://demos.creative-tim.com/vue-now-ui-kit/documentation"
+          class="nav-link"
+          href="https://www.creative-tim.com/product/vue-now-ui-kit"
           target="_blank"
-          class="dropdown-item"
         >
-          <i class="now-ui-icons design_bullet-list-67"></i> Documentation
+          <!-- <i class="fas fa-users"></i> -->
+          <p>About Us</p>
         </a>
-      </drop-down>
-      <drop-down
-              tag="li"
-              title="Examples"
-              icon="now-ui-icons design_image"
-              class="nav-item"
-      >
-        <nav-link to="/landing">
-          <i class="now-ui-icons education_paper"></i> Landing
-        </nav-link>
-        <nav-link to="/login">
-          <i class="now-ui-icons users_circle-08"></i> Login
-        </nav-link>
-        <nav-link to="/profile">
-          <i class="now-ui-icons users_single-02"></i> Profile
-        </nav-link>
-      </drop-down>
+      </li>
+      <li class="nav-item">
+        <a
+          class="nav-link"
+          href="https://www.creative-tim.com/product/vue-now-ui-kit"
+          target="_blank"
+        >
+          <!-- <i class="fas fa-id-card"></i> -->
+          <p>Contact Us</p>
+        </a>
+      </li>
       <li class="nav-item">
         <a
           class="nav-link btn btn-neutral"
           href="https://www.creative-tim.com/product/vue-now-ui-kit-pro"
           target="_blank"
         >
-          <i class="now-ui-icons arrows-1_share-66"></i>
-          <p>Upgrade to PRO</p>
+         <!-- <i class="fab fa-wpforms"></i> -->
+          <p>REGISTER</p>
         </a>
       </li>
-
+      <li class="nav-item">
+        <a
+          class="nav-link btn btn-neutral"
+          href="https://www.creative-tim.com/product/vue-now-ui-kit-pro"
+          target="_blank"
+        >
+          <!-- <i class="fas fa-sign-in-alt"></i> -->
+          <p>LOGIN</p>
+        </a>
+      </li>
       <li class="nav-item">
         <a
           class="nav-link"
