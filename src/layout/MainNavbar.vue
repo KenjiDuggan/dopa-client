@@ -8,7 +8,7 @@
   >
     <template slot-scope="{ toggle, isToggled }">
       <router-link v-popover:popover1 class="navbar-brand" to="/">
-        Z O A L A
+        D O P A
       </router-link>
       <el-popover
         ref="popover1"
