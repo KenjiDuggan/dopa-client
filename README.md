@@ -1,4 +1,13 @@
 
+# dopa-client
+
+In development, 
+
+# Demo Images 
+### In development!
+
+![Navbar Layouts](README_images/navbar_layouts.png)
+
 Technologies used: 
 [Vue.js (2.5)](https://vuejs.org/) as framework for development.
 [Vue CLI 3](https://github.com/vuejs/vue-cli) for project scaffolding.
