@@ -9,23 +9,26 @@
         <div class="col-md-5 ml-auto mr-auto">
           <card type="login" plain>
             <div slot="header" class="logo-container">
-              <img v-lazy="'img/now-logo.png'" alt="" />
+              <img v-lazy="'img/united.svg'" alt="" />
             </div>
-
             <fg-input
               class="no-border input-lg"
               addon-left-icon="now-ui-icons users_circle-08"
-              placeholder="First Name..."
+              placeholder="Full Name..."
             >
             </fg-input>
-
             <fg-input
               class="no-border input-lg"
               addon-left-icon="now-ui-icons text_caps-small"
-              placeholder="Last Name..."
+              placeholder="Email..."
             >
             </fg-input>
-
+            <fg-input
+              class="no-border input-lg"
+              addon-left-icon="now-ui-icons users_circle-08"
+              placeholder="Password..."
+            >
+            </fg-input>
             <template slot="raw-content">
               <div class="card-footer text-center">
                 <a

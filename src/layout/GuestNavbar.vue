@@ -60,7 +60,7 @@
           href="https://twitter.com/CreativeTim"
           target="_blank"
         >
-          <i class="fab fa-twitter"></i>
+          <i class="fab fa-github"></i>
           <p class="d-lg-none d-xl-none">Twitter</p>
         </a>
       </li>

@@ -9,7 +9,7 @@
         <div class="col-md-5 ml-auto mr-auto">
           <card type="login" plain>
             <div slot="header" class="logo-container">
-              <img src="/src/assets/image/log-in" />
+              <img v-lazy="'img/log-in.svg'" />
             </div>
 
             <fg-input
