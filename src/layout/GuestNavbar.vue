@@ -44,12 +44,12 @@
       <router-link
         to='/register'
       >
-        <div class="btn btn-neutral nav-link">REGISTER</div>
+        <div class="btn btn-neutral nav-link marsides">REGISTER</div>
       </router-link>
       <router-link
         to='/login'
       >
-        <div class="btn btn-neutral nav-link">LOGIN</div>
+        <div class="btn btn-neutral nav-link marsides">LOGIN</div>
       </router-link>
       <li class="nav-item">
         <a
@@ -97,6 +97,7 @@
 <script>
 import { DropDown, NavbarToggleButton, Navbar, NavLink } from '@/components';
 import { Popover } from 'element-ui';
+
 export default {
   name: 'guest-navbar',
   props: {
@@ -113,4 +114,9 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style>
+.marsides {
+  margin-left: 2px !important;
+  margin-right: 2px !important;
+}
+</style>

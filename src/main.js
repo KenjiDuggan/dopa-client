@@ -5,8 +5,8 @@ import router from './router';
 import NowUiKit from './plugins/now-ui-kit';
 import BootstrapVue from 'bootstrap-vue';
 import 'bootstrap/dist/css/bootstrap.css'
-import 'bootstrap-vue/dist/bootstrap-vue.css'
-import 'element-ui/lib/theme-chalk/reset.css'
+import 'bootstrap-vue/dist/bootstrap-vue.css';
+import 'element-ui/lib/theme-chalk/reset.css';
 
 Vue.config.productionTip = false;
 
