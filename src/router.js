@@ -6,6 +6,7 @@ import Login from './pages/Login.vue';
 import Register from './pages/Register.vue';
 import Contact from './pages/Contact.vue';
 import Profile from './pages/Profile.vue';
+import About from './pages/About.vue';
 import GuestNavbar from './layout/GuestNavbar.vue';
 import GuestFooter from './layout/GuestFooter.vue';
 import AuthNavbar from './layout/AuthNavbar.vue';

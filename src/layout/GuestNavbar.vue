@@ -23,56 +23,34 @@
       </el-popover>
     </template>
     <template slot="navbar-menu">
-      <li class="nav-item">
-        <a
-          class="nav-link"
-          to='/login'
-          target="_blank"
-        >
-          <!-- <i class="fas fa-cogs"></i> -->
-          <p>How It Works</p>
-        </a>
-      </li>
-      <li class="nav-item">
-        <a
-          class="nav-link"
-          href="#"
-          target="_blank"
-        >
-          <!-- <i class="fas fa-users"></i> -->
-          <p>About Us</p>
-        </a>
-      </li>
-      <li class="nav-item">
-        <a
-          class="nav-link"
-          href="#"
-          target="_blank"
-        >
-          <!-- <i class="fas fa-id-card"></i> -->
-          <p>Contact Us</p>
-        </a>
-      </li>
-      <li class="nav-item">
-        <a
-          class="nav-link btn btn-neutral"
-          href="#"
-          target="_blank"
-        >
-         <!-- <i class="fab fa-wpforms"></i> -->
-          <p>REGISTER</p>
-        </a>
-      </li>
-      <li class="nav-item">
-        <a
-          class="nav-link btn btn-neutral"
-          href="#"
-          target="_blank"
-        >
-          <!-- <i class="fas fa-sign-in-alt"></i> -->
-          <p>LOGIN</p>
-        </a>
-      </li>
+      <router-link
+        class="navbar-brand"
+        to='/'
+      >
+        <p>How It Works</p>
+      </router-link>
+      <router-link
+        class="navbar-brand"
+        to='/about'
+      >
+        <p>About Us</p>
+      </router-link>
+      <router-link
+        class="navbar-brand"
+        to='/contact'
+      >
+        <p>Contact</p>
+      </router-link>
+      <router-link
+        to='/register'
+      >
+        <div class="btn btn-neutral nav-link">REGISTER</div>
+      </router-link>
+      <router-link
+        to='/login'
+      >
+        <div class="btn btn-neutral nav-link">LOGIN</div>
+      </router-link>
       <li class="nav-item">
         <a
           class="nav-link"

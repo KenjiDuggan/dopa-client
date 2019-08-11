@@ -23,16 +23,13 @@
       </el-popover>
     </template>
     <template slot="navbar-menu">
-      <li class="nav-item">
-        <a
-          class="nav-link"
-          to='/login'
-          target="_blank"
+        <router-link
+          class="navbar-brand"
+          to='/'
         >
           <!-- <i class="fas fa-cogs"></i> -->
           <p>How It Works</p>
-        </a>
-      </li>
+        </router-link>
       <li class="nav-item">
         <a
           class="nav-link"
