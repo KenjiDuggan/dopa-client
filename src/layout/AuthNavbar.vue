@@ -6,7 +6,7 @@
     :color-on-scroll="colorOnScroll"
     menu-classes="ml-auto"
   >
-    <template slot-scope="{ toggle, isToggled }">
+    <template>
       <router-link v-popover:popover1 class="navbar-brand" to="/">
         D O P A
       </router-link>
@@ -26,7 +26,7 @@
       <li class="nav-item">
         <a
           class="nav-link"
-          href="https://www.creative-tim.com/product/vue-now-ui-kit"
+          to='/login'
           target="_blank"
         >
           <!-- <i class="fas fa-cogs"></i> -->
@@ -36,7 +36,7 @@
       <li class="nav-item">
         <a
           class="nav-link"
-          href="https://www.creative-tim.com/product/vue-now-ui-kit"
+          href="#"
           target="_blank"
         >
           <!-- <i class="fas fa-users"></i> -->
@@ -46,7 +46,7 @@
       <li class="nav-item">
         <a
           class="nav-link"
-          href="https://www.creative-tim.com/product/vue-now-ui-kit"
+          href="#"
           target="_blank"
         >
           <!-- <i class="fas fa-id-card"></i> -->
@@ -56,7 +56,7 @@
       <li class="nav-item">
         <a
           class="nav-link btn btn-neutral"
-          href="https://www.creative-tim.com/product/vue-now-ui-kit-pro"
+          href="#"
           target="_blank"
         >
          <!-- <i class="fab fa-wpforms"></i> -->
@@ -66,7 +66,7 @@
       <li class="nav-item">
         <a
           class="nav-link btn btn-neutral"
-          href="https://www.creative-tim.com/product/vue-now-ui-kit-pro"
+          href="#"
           target="_blank"
         >
           <!-- <i class="fas fa-sign-in-alt"></i> -->
@@ -120,7 +120,7 @@
 import { DropDown, NavbarToggleButton, Navbar, NavLink } from '@/components';
 import { Popover } from 'element-ui';
 export default {
-  name: 'main-navbar',
+  name: 'guest-navbar',
   props: {
     transparent: Boolean,
     colorOnScroll: Number

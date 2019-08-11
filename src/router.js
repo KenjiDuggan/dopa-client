@@ -3,9 +3,13 @@ import Router from 'vue-router';
 import Index from './pages/Index.vue';
 import Landing from './pages/Landing.vue';
 import Login from './pages/Login.vue';
+import Register from './pages/Register.vue';
+import Contact from './pages/Contact.vue';
 import Profile from './pages/Profile.vue';
-import MainNavbar from './layout/MainNavbar.vue';
-import MainFooter from './layout/MainFooter.vue';
+import GuestNavbar from './layout/GuestNavbar.vue';
+import GuestFooter from './layout/GuestFooter.vue';
+import AuthNavbar from './layout/AuthNavbar.vue';
+import AuthFooter from './layout/AuthFooter.vue';
 
 Vue.use(Router);
 
@@ -15,7 +19,7 @@ export default new Router({
     {
       path: '/',
       name: 'index',
-      components: { default: Index, header: MainNavbar, footer: MainFooter },
+      components: { default: Index, header: GuestNavbar, footer: GuestFooter },
       props: {
         header: { colorOnScroll: 400 },
         footer: { backgroundColor: 'black' }
@@ -24,7 +28,7 @@ export default new Router({
     {
       path: '/landing',
       name: 'landing',
-      components: { default: Landing, header: MainNavbar, footer: MainFooter },
+      components: { default: Landing, header: GuestNavbar, footer: GuestFooter },
       props: {
         header: { colorOnScroll: 400 },
         footer: { backgroundColor: 'black' }
@@ -33,7 +37,15 @@ export default new Router({
     {
       path: '/login',
       name: 'login',
-      components: { default: Login, header: MainNavbar },
+      components: { default: Login, header: GuestNavbar },
+      props: {
+        header: { colorOnScroll: 400 }
+      }
+    },
+    {
+      path: '/register',
+      name: 'register',
+      components: { default: Register, header: GuestNavbar },
       props: {
         header: { colorOnScroll: 400 }
       }
@@ -41,12 +53,30 @@ export default new Router({
     {
       path: '/profile',
       name: 'profile',
-      components: { default: Profile, header: MainNavbar, footer: MainFooter },
+      components: { default: Profile, header: AuthNavbar, footer: AuthFooter },
       props: {
         header: { colorOnScroll: 400 },
         footer: { backgroundColor: 'black' }
       }
-    }
+    },
+    {
+      path: '/contact',
+      name: 'contact',
+      components: { default: Contact, header: GuestNavbar, footer: GuestFooter },
+      props: {
+        header: { colorOnScroll: 400 },
+        footer: { backgroundColor: 'black' }
+      }
+    },
+    {
+      path: '/about',
+      name: 'about',
+      components: { default: About, header: GuestNavbar, footer: GuestFooter },
+      props: {
+        header: { colorOnScroll: 400 },
+        footer: { backgroundColor: 'black' }
+      }
+    },
   ],
   scrollBehavior: to => {
     if (to.hash) {
