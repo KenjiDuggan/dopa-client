@@ -27,8 +27,7 @@
           class="navbar-brand"
           to='/'
         >
-          <!-- <i class="fas fa-cogs"></i> -->
-          <p>How It Works</p>
+          <p class="marsides">How It Works</p>
         </router-link>
       <li class="nav-item">
         <a
@@ -36,8 +35,7 @@
           href="#"
           target="_blank"
         >
-          <!-- <i class="fas fa-users"></i> -->
-          <p>About Us</p>
+          <p class="marsides">About Us</p>
         </a>
       </li>
       <li class="nav-item">
@@ -46,8 +44,7 @@
           href="#"
           target="_blank"
         >
-          <!-- <i class="fas fa-id-card"></i> -->
-          <p>Contact Us</p>
+          <p class="marsides">Contact Us</p>
         </a>
       </li>
       <li class="nav-item">
@@ -56,7 +53,6 @@
           href="#"
           target="_blank"
         >
-         <!-- <i class="fab fa-wpforms"></i> -->
           <p>REGISTER</p>
         </a>
       </li>
@@ -66,7 +62,6 @@
           href="#"
           target="_blank"
         >
-          <!-- <i class="fas fa-sign-in-alt"></i> -->
           <p>LOGIN</p>
         </a>
       </li>
@@ -76,11 +71,11 @@
           rel="tooltip"
           title="Follow us on Twitter"
           data-placement="bottom"
-          href="https://twitter.com/CreativeTim"
+          href="https://github.com/KenjiDuggan"
           target="_blank"
         >
           <i class="fab fa-github"></i>
-          <p class="d-lg-none d-xl-none">Twitter</p>
+          <p class="d-lg-none d-xl-none">Github</p>
         </a>
       </li>
       <li class="nav-item">
@@ -89,24 +84,11 @@
           rel="tooltip"
           title="Like us on Facebook"
           data-placement="bottom"
-          href="https://www.facebook.com/CreativeTim"
+          href="https://www.facebook.com/kenji.duggan"
           target="_blank"
         >
           <i class="fab fa-facebook-square"></i>
           <p class="d-lg-none d-xl-none">Facebook</p>
-        </a>
-      </li>
-      <li class="nav-item">
-        <a
-          class="nav-link"
-          rel="tooltip"
-          title="Follow us on Instagram"
-          data-placement="bottom"
-          href="https://www.instagram.com/CreativeTimOfficial"
-          target="_blank"
-        >
-          <i class="fab fa-instagram"></i>
-          <p class="d-lg-none d-xl-none">Instagram</p>
         </a>
       </li>
     </template>
@@ -133,4 +115,10 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+.marsides {
+  margin-left: 2px !important;
+  margin-right: 2px !important;
+}
+</style>
+

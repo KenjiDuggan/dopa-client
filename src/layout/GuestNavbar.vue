@@ -27,19 +27,19 @@
         class="navbar-brand"
         to='/'
       >
-        <p>How It Works</p>
+        <p class="marsides">How It Works</p>
       </router-link>
       <router-link
         class="navbar-brand"
         to='/about'
       >
-        <p>About Us</p>
+        <p class="marsides">About Us</p>
       </router-link>
       <router-link
         class="navbar-brand"
         to='/contact'
       >
-        <p>Contact</p>
+        <p class="marsides">Contact</p>
       </router-link>
       <router-link
         to='/register'
@@ -57,11 +57,11 @@
           rel="tooltip"
           title="Follow us on Twitter"
           data-placement="bottom"
-          href="https://twitter.com/CreativeTim"
+          href="https://github.com/KenjiDuggan"
           target="_blank"
         >
           <i class="fab fa-github"></i>
-          <p class="d-lg-none d-xl-none">Twitter</p>
+          <p class="d-lg-none d-xl-none">Github</p>
         </a>
       </li>
       <li class="nav-item">
@@ -70,24 +70,11 @@
           rel="tooltip"
           title="Like us on Facebook"
           data-placement="bottom"
-          href="https://www.facebook.com/CreativeTim"
+          href="https://www.facebook.com/kenji.duggan"
           target="_blank"
         >
           <i class="fab fa-facebook-square"></i>
           <p class="d-lg-none d-xl-none">Facebook</p>
-        </a>
-      </li>
-      <li class="nav-item">
-        <a
-          class="nav-link"
-          rel="tooltip"
-          title="Follow us on Instagram"
-          data-placement="bottom"
-          href="https://www.instagram.com/CreativeTimOfficial"
-          target="_blank"
-        >
-          <i class="fab fa-instagram"></i>
-          <p class="d-lg-none d-xl-none">Instagram</p>
         </a>
       </li>
     </template>
@@ -114,7 +101,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .marsides {
   margin-left: 2px !important;
   margin-right: 2px !important;
