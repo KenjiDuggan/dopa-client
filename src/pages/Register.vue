@@ -29,6 +29,7 @@
               placeholder="Password..."
             >
             </fg-input>
+            <Gender />
 <!-- 
             <Yearofbirth />
 
@@ -75,16 +76,19 @@
 import { Card, Button, FormGroupInput } from '@/components';
 // import Yearofbirth from './components/Register/Yearofbirth';
 import GuestFooter from '@/layout/GuestFooter';
+import Gender from './components/Register/Gender';
+
 export default {
   name: 'login-page',
   bodyClass: 'login-page',
   components: {
     Card,
+    Gender,
     // Yearofbirth,
     GuestFooter,
     [Button.name]: Button,
     [FormGroupInput.name]: FormGroupInput
-  }
+  },
 };
 </script>
 <style></style>

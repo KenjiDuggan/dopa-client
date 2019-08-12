@@ -8,7 +8,6 @@
     </div>
      <Form />
   </div>
-    <GuestFooter />
 </div>
 </template>
 
