@@ -39,7 +39,7 @@
         class="navbar-brand"
         to='/contact'
       >
-        <p class="marsides">Contact</p>
+        <p class='marsides'>Contact</p>
       </router-link>
       <router-link
         to='/register'
@@ -82,7 +82,7 @@
 </template>
 
 <script>
-import { DropDown, NavbarToggleButton, Navbar, NavLink } from '@/components';
+import { Navbar } from '@/components';
 import { Popover } from 'element-ui';
 
 export default {
@@ -92,10 +92,7 @@ export default {
     colorOnScroll: Number
   },
   components: {
-    DropDown,
     Navbar,
-    NavbarToggleButton,
-    NavLink,
     [Popover.name]: Popover
   }
 };

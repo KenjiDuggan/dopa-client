@@ -11,21 +11,18 @@
             <div slot="header" class="logo-container">
               <img v-lazy="'img/log-in.svg'" />
             </div>
-
-            <fg-input
-              class="no-border input-lg"
-              addon-left-icon="now-ui-icons users_circle-08"
-              placeholder="First Name..."
-            >
-            </fg-input>
-
             <fg-input
               class="no-border input-lg"
               addon-left-icon="now-ui-icons text_caps-small"
-              placeholder="Last Name..."
+              placeholder="Email..."
             >
             </fg-input>
-
+            <fg-input
+              class="no-border input-lg"
+              addon-left-icon="now-ui-icons users_circle-08"
+              placeholder="Password..."
+            >
+            </fg-input>
             <template slot="raw-content">
               <div class="card-footer text-center">
                 <a
