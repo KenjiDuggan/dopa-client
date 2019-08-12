@@ -29,7 +29,7 @@
               placeholder="Password..."
             >
             </fg-input>
-
+<!-- 
             <Yearofbirth />
 
             <div class="col-md-3 dropdown">
@@ -42,7 +42,7 @@
                     <li><a href="#">Female</a></li>
                     <li><a href="#">Other</a></li>
                 </ul>
-            </div>
+            </div> -->
 
             <template slot="raw-content">
               <div class="card-footer text-center">
@@ -73,14 +73,14 @@
 <script>
 
 import { Card, Button, FormGroupInput } from '@/components';
-import Yearofbirth from './components/Register/Yearofbirth';
+// import Yearofbirth from './components/Register/Yearofbirth';
 import GuestFooter from '@/layout/GuestFooter';
 export default {
   name: 'login-page',
   bodyClass: 'login-page',
   components: {
     Card,
-    Yearofbirth,
+    // Yearofbirth,
     GuestFooter,
     [Button.name]: Button,
     [FormGroupInput.name]: FormGroupInput

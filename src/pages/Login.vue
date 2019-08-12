@@ -46,7 +46,7 @@
         </div>
       </div>
     </div>
-    <main-footer></main-footer>
+    <GuestFooter />
   </div>
 </template>
 <script>

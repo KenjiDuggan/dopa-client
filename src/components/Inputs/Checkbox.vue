@@ -45,11 +45,11 @@ export default {
         this.$emit('input', check);
       }
     },
-    inlineClass() {
-      if (this.inline) {
-        return `form-check-inline`;
-      }
-    }
+    // inlineClass() {
+    //   if (this.inline) {
+    //     return `form-check-inline`;
+    //   }
+    // }
   },
   created() {
     this.cbId = Math.random()

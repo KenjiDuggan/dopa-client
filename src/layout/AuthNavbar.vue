@@ -96,7 +96,7 @@
 </template>
 
 <script>
-import { DropDown, NavbarToggleButton, Navbar, NavLink } from '@/components';
+import { Navbar } from '@/components';
 import { Popover } from 'element-ui';
 
 export default {
@@ -106,10 +106,7 @@ export default {
     colorOnScroll: Number
   },
   components: {
-    DropDown,
     Navbar,
-    NavbarToggleButton,
-    NavLink,
     [Popover.name]: Popover
   }
 };
