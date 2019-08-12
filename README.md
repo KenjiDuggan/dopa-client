@@ -8,6 +8,8 @@ In development,
 
 ![Navbar Layouts](README_images/navbar_layouts.png)
 ![LandingPageSectionOne_Guest](README_images/landingpage1_guest.png)
+![Register](README_images/register.png)
+![Login](README_images/login.png)
 
 Technologies used: 
 [Vue.js (2.5)](https://vuejs.org/) as framework for development.
