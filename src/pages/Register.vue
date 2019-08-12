@@ -29,7 +29,7 @@
               placeholder="Password..."
             >
             </fg-input>
-            <Gender />
+            <!-- <Gender /> -->
 <!-- 
             <Yearofbirth />
 
