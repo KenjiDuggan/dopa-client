@@ -44,12 +44,12 @@
       <router-link
         to='/register'
       >
-        <div class="btn btn-neutral nav-link marsides">REGISTER</div>
+        <div class="btn btn-neutral nav-link marsides">REGISTER</div> 
       </router-link>
       <router-link
         to='/login'
       >
-        <div class="btn btn-neutral nav-link marsides">LOGIN</div>
+        <div class="btn btn-neutral nav-link marsides">LOGIN</div> 
       </router-link>
       <li class="nav-item">
         <a

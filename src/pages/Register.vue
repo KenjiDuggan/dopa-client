@@ -20,9 +20,9 @@
               </a>
               <a
                 href="#pablo"
-                class="btn btn-neutral btn-twitter btn-icon btn-lg btn-round"
+                class="btn btn-neutral btn-github btn-icon btn-lg btn-round"
               >
-                <i class="fab fa-twitter"></i>
+                <i class="fab fa-github-alt"></i>
               </a>
               <a
                 href="#pablo"

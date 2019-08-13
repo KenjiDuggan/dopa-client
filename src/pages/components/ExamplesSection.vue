@@ -4,13 +4,13 @@
     <div class="container text-center">
       <div class="row">
         <div class="col">
-          <router-link to="/landing" target="_blank">
+          <router-link to="/about" target="_blank">
             <img src="img/landing.jpg" alt="Image" class="img-raised" />
           </router-link>
           <router-link
-            to="/landing"
+            to="/about"
             class="btn btn-simple btn-primary btn-round"
-            >View Landing Page
+            >About Us
           </router-link>
         </div>
         <div class="col">

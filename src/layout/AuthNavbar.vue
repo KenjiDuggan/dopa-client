@@ -53,7 +53,7 @@
           href="#"
           target="_blank"
         >
-          <p>REGISTER</p>
+          <p>REGISTER<b-spinner type="grow" label="Spinning"></b-spinner></p>
         </a>
       </li>
       <li class="nav-item">
@@ -62,7 +62,7 @@
           href="#"
           target="_blank"
         >
-          <p>LOGIN</p>
+          <p>LOGIN<b-spinner type="grow" label="Spinning"></b-spinner></p>
         </a>
       </li>
       <li class="nav-item">

@@ -1,7 +1,6 @@
 import Vue from 'vue';
 import Router from 'vue-router';
 import Index from './pages/Index.vue';
-import Landing from './pages/Landing.vue';
 import Login from './pages/Login.vue';
 import Register from './pages/Register.vue';
 import Contact from './pages/Contact.vue';
@@ -27,9 +26,9 @@ export default new Router({
       }
     },
     {
-      path: '/landing',
-      name: 'landing',
-      components: { default: Landing, header: GuestNavbar, footer: GuestFooter },
+      path: '/about',
+      name: 'about',
+      components: { default: About, header: GuestNavbar, footer: GuestFooter },
       props: {
         header: { colorOnScroll: 400 },
         footer: { backgroundColor: 'black' }
@@ -69,15 +68,7 @@ export default new Router({
         footer: { backgroundColor: 'black' }
       }
     },
-    {
-      path: '/about',
-      name: 'about',
-      components: { default: About, header: GuestNavbar, footer: GuestFooter },
-      props: {
-        header: { colorOnScroll: 400 },
-        footer: { backgroundColor: 'black' }
-      }
-    },
+
   ],
   scrollBehavior: to => {
     if (to.hash) {
