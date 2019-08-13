@@ -12,11 +12,8 @@
           <h1 class="h1 whitetext">Ready to finally commit?</h1>
           <h3 class="whitetext">I commit to </h3>
           <LandingPageSectionOne/> 
-          <audio controls>
-            <source src="open-space.mp3" type="audio/mpeg">
-          Your browser does not support the audio element.
-          </audio>
-          <Backgroundmusic />
+
+          <!-- <Backgroundmusic /> -->
         </div>
         <!-- <h6 class="category category-absolute">
           Designed by
@@ -82,7 +79,7 @@
 </template>
 
 <script>
-import Backgroundmusic from './components/LandingPage/Backgroundmusic';
+// import Backgroundmusic from './components/LandingPage/Backgroundmusic';
 import { Parallax } from '@/components';
 import BasicElements from './components/BasicElementsSection';
 import Navigation from './components/Navigation';
@@ -102,7 +99,7 @@ export default {
   name: 'index',
   bodyClass: 'index-page',
   components: {
-    Backgroundmusic,
+   
     Parallax,
     BasicElements,
     Navigation,

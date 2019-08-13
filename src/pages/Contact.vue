@@ -1,26 +1,23 @@
 <template>
-<div>
-  <div class="page-header clear-filter" filter-color="orange">
-    <div
-      class="page-header-image"
-      style="background-image: url('img/login.jpg')"
-    >
+  <div>
+    <div class="page-header clear-filter" filter-color="">
+      <div
+        class="page-header-image"
+        style="background-image: url('img/contact.jpg')"
+      >
+      </div>
+      <Form />
     </div>
-     <Form />
   </div>
-</div>
 </template>
 
 <script>
-
 import { Button, FormGroupInput } from '@/components';
 import Form from './components/Contact/Form';
-import GuestFooter from '@/layout/GuestFooter';
 export default {
   name: 'contact-page',
   bodyClass: 'contact-page',
   components: {
-    GuestFooter,
     Form,
     [Button.name]: Button,
     [FormGroupInput.name]: FormGroupInput

@@ -1,8 +1,8 @@
 <template>
-  <div class="page-header clear-filter" filter-color="orange">
+  <div class="page-header clear-filter" filter-color="">
     <div
       class="page-header-image"
-      style="background-image: url('img/login.jpg')"
+      style="background-image: url('img/register.jpg')"
     ></div>
     <div class="content">
       <div class="container">

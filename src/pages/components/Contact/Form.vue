@@ -1,52 +1,53 @@
 <template>
     <div id="form" class='spacetop'>
-    <form class="vue-form" @submit.prevent="submit">
-        <fieldset>
-        <h1 class='text-xs-center'>Contact Us</h1>
-        <div>
-            <label class="label" for="name">Name</label>
-            <input type="text" name="name" id="name" required="" v-model="name">
-        </div>
-        <div>
-            <label class="label" for="email">Email</label>
-            <input type="email" name="email" id="email" required=""
-                :class="{ email , error: !email.valid }"
-                v-model="email.value">
-        </div>
-        <div>
-            <h4>Topic</h4>
+      <form class="vue-form" @submit.prevent="submit">
+          <fieldset>
+          <h1 class='text-xs-center'>Contact Us</h1>
+          <div>
+              <label class="label" for="name">Name</label>
+              <input type="text" name="name" id="name" required="" v-model="name">
+          </div>
+          <div>
+              <label class="label" for="email">Email</label>
+              <input type="email" name="email" id="email" required=""
+                  :class="{ email , error: !email.valid }"
+                  v-model="email.value">
+          </div>
+          <div>
+              <h4>Topic</h4>
 
-            <ul class="vue-form-list">
-            <li>
-                <input type="radio" name="radio-1" id="radio-1" value="angular" 
-                    v-model="selection.framework">
-                <label for="radio-1">Technical</label>
-            </li>
-            <li>
-                <input type="radio" name="radio-2" id="radio-2" value="react" 
-                    v-model="selection.framework">
-                <label for="radio-2">Business</label>
-            </li>
-            <li>
-                <input type="radio" name="radio-3" id="radio-3" value="vue" 
-                    v-model="selection.framework">
-                <label for="radio-3">Social</label>
-            </li>
-            </ul>
-        </div>
+              <ul class="vue-form-list">
+              <li>
+                  <input type="radio" name="radio-1" id="radio-1" value="angular" 
+                      v-model="selection.framework">
+                  <label for="radio-1">Technical</label>
+              </li>
+              <li>
+                  <input type="radio" name="radio-2" id="radio-2" value="react" 
+                      v-model="selection.framework">
+                  <label for="radio-2">Business</label>
+              </li>
+              <li>
+                  <input type="radio" name="radio-3" id="radio-3" value="vue" 
+                      v-model="selection.framework">
+                  <label for="radio-3">Social</label>
+              </li>
+              </ul>
+          </div>
 
-        <div>
-            <label class="label" for="textarea">Message with Counter</label>
-            <textarea class="message" name="textarea" id="textarea" required="" 
-                    v-model="message.text" 
-                    :maxlength="message.maxlength"></textarea>
-            <span class="counter">{{ message.text.length }} / {{ message.maxlength }}</span>
-        </div>
-        <div>
-            <input type="submit" value="Send Form">
-        </div>
-        </fieldset>
-    </form>
+          <div>
+              <label class="label" for="textarea">Message with Counter</label>
+              <textarea class="message" name="textarea" id="textarea" required="" 
+                      v-model="message.text" 
+                      :maxlength="message.maxlength"></textarea>
+              <span class="counter">{{ message.text.length }} / {{ message.maxlength }}</span>
+          </div>
+          <div>
+              <input type="submit" value="Send Form">
+          </div>
+          </fieldset>
+      </form>
+      <GuestFooter/>
     </div>
 </template>
 
@@ -385,9 +386,13 @@ header h1 {
 </style>
 
 <script>
+import GuestFooter from '../../../layout/GuestFooter';
 var emailRegExp = /^[a-zA-Z0-9.!#$%&'*+\/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/;
 
 export default {
+    components: {
+      GuestFooter
+    },
     data: function() {
         return {
         name: "Kenji Duggan",
