@@ -10,6 +10,7 @@ In development,
 ![LandingPageSectionOne_Guest](README_images/landingpage1_guest.png)
 ![Register](README_images/register.png)
 ![Login](README_images/login.png)
+![Contact](README_images/contact.png)
 
 Technologies used: 
 [Vue.js (2.5)](https://vuejs.org/) as framework for development.
