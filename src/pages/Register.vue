@@ -11,6 +11,26 @@
             <div slot="header" class="logo-container">
               <img v-lazy="'img/united.svg'" alt="" />
             </div>
+            <div class="social-line">
+              <a
+                href="#pablo"
+                class="btn btn-neutral btn-facebook btn-icon btn-round"
+              >
+                <i class="fab fa-facebook-square"></i>
+              </a>
+              <a
+                href="#pablo"
+                class="btn btn-neutral btn-twitter btn-icon btn-lg btn-round"
+              >
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a
+                href="#pablo"
+                class="btn btn-neutral btn-google btn-icon btn-round"
+              >
+                <i class="fab fa-google-plus"></i>
+              </a>
+            </div>
             <fg-input
               class="no-border input-lg"
               addon-left-icon="now-ui-icons users_circle-08"
